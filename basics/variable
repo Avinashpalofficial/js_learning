@@ -1,0 +1,19 @@
+const accountID =4445667           // we can't change const value if we changing then node js not allowed
+let accountemail = "avin@gmail.com"   // we can change let value
+var accountpassword ="21201"
+accountcity = "Haryana"
+accountstate= "Uttarpradesh"
+
+accountemail= "pnb@gmail.com"
+accountpassword="34235"
+accountcity = "Punjab"
+
+/*
+    prefer not use var-> because of issue block scope and functional scope
+
+*/
+
+//accountID =4         // type error : assignment to comstant variable
+
+//console.log(accountID);  
+console.table([accountID,accountemail,accountpassword,accountcity,accountstate]);
