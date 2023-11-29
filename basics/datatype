@@ -1,0 +1,35 @@
+"use strict";   //treate  all js code as newer version
+
+//alert(3+3)          // we are using node js , not browser
+
+console.log(3+3)          // code readability should be high
+
+
+console.log("Avinash")
+
+let player ="Avinash"
+let color =  "white"
+let login = "True"
+
+console.table([player,color,login])
+
+
+
+//datatype
+
+
+// number => 2 to power 53
+// bigint
+// string => ""
+// boolean => true/false
+// null => standalone value
+// undefined => 
+// symbol => unique
+
+
+console.log(typeof null)   // this is a type of object 
+
+
+console.log(typeof undefined)    // this is a type of undefined 
+
+console.log(typeof "avinash")   
