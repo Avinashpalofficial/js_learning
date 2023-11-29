@@ -1,0 +1,64 @@
+let score = "33"      
+
+//"33"  => 33
+
+
+let age ="33op"
+
+//"33op" => NaN=> not a number
+
+let count = "null"
+
+//null = number ,0
+
+let cat = "undefined"
+
+//undefined => number ,NaN
+
+
+
+//console.log(typeof score);                     //    node basics/conversion
+//console.log(typeof(score));
+
+//console.log(typeof age);
+//console.log(typeof (age));
+
+
+let valueinNumber= Number(cat)
+
+
+//console.log(typeof valueinNumber );
+
+
+//console.log( valueinNumber );
+
+let candidate ="Avinash"
+
+let player = 0
+
+let playerIN =Boolean(player )
+
+let candidateIN= Boolean(candidate)
+// console.log(candidateIN);
+// console.log( typeof candidateIN);
+
+// console.log(playerIN);
+// console.log( typeof playerIN);
+
+/*
+1 => true
+0=> false
+""=> false
+" "=> true
+"avinash" => true
+*/
+
+let someNumber = "34"
+let StringNumber = String(someNumber)
+
+console.log(StringNumber);
+console.log(typeof StringNumber);
+
+
+
+
