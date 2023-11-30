@@ -33,3 +33,10 @@ console.log(typeof null)   // this is a type of object
 console.log(typeof undefined)    // this is a type of undefined 
 
 console.log(typeof "avinash")   
+
+
+  //************************************************************************//
+
+  
+
+
