@@ -1,0 +1,40 @@
+const name ="Avinash"
+const age = 21
+
+
+console.log(name+age+"class")                 // node basics/string
+  //this is old method 
+
+
+console.log('hello my name is avinash${}and I am  doing code ${in javascript}')    //this is modern method
+
+const game = new String('Avinash-pal')
+
+console.log(game[0])
+console.log(game.length);
+
+console.log(game.__proto__);   
+
+console.log(game.toUpperCase());
+
+console.log(game.charAt(3));  
+console.log(game.indexOf('n'));
+
+const newAvin= game.substring(0,2)
+console.log(newAvin);
+
+const Repository= game.slice(2,6)
+console.log(Repository);
+
+const newString = "   AvinashPAL    "
+
+console.log(newString);
+
+console.log(newString.trim());
+
+const link= "https://space-halibut-x5xgp5v9jx2p64p.github.dev/"
+
+console.log(link.replace('space','master'));
+console.log(link.includes('spaces'));
+
+console.log(name.split('____'));
