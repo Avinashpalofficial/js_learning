@@ -1,0 +1,45 @@
+const num = "400"
+console.log(num);              //  node basics/maths_and _number
+
+console.log(typeof num);   
+
+
+const account = new Number(32444444444444444444)
+console.log(account);       //  specially type the Number:32
+
+
+console.log(account.toString().length )
+
+console.log(account.toFixed())
+
+
+const othernumber = 121.2345                /*
+console.log(othernumber.toPrecision(3));     varry answer depends on the number
+console.log(othernumber.toPrecision(4));
+console.log(othernumber.toPrecision(5));    */
+
+const hundreds = 100000000000
+console.log(hundreds.toLocaleString('en-IN'));
+
+console.log(Math);
+console.log(Math.abs(-4));
+
+console.log(Math.abs(4));
+
+console.log(Math.round(3.4));
+
+console.log(Math.ceil(3.4));
+console.log(Math.floor(4.8));
+
+console.log(Math.min(3,4,5,6));
+console.log(Math.max(34,4,3,4,5));
+
+console.log(Math.random());    //   some value gain in decimal
+
+//console.log((Math.random()*10)+1);
+
+//console.log(Math.random()+1);
+
+
+console.log(Math.floor((Math.random()*10)+1))
+
