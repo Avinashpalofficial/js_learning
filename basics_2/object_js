@@ -1,0 +1,34 @@
+const mylogo = Symbol("key")
+console.log(typeof Symbol);
+
+const myuser ={
+     name: "Avinash",
+      "fullname": "Avinash pal",      
+    fullnam: "Avinash pal",
+    [mylogo]: "Hitesh",
+     email: "avinashpal@123",
+     collegeid: "Avinash.it@123",
+     idloggedin: "true",
+     lastlogged: ["sunday","monday"],
+}
+   console.log(myuser.name)
+   console.log(myuser.fullname)
+   console.log(myuser[mylogo])
+   console.log(myuser["fullname"])
+   myuser.email="avinsh@micro.com"
+   
+   myuser.email="avinsh@chatgpt.com"
+   console.log(myuser)
+   
+   myuser.greeting=function(){
+    console.log("hello Avinash");
+   }
+
+   
+
+   myuser.greetingtwo = function(){
+        console.log(`hello Avinash, ${this.name}`);
+   }
+     
+     console.log(myuser.greeting())
+     console.log(myuser.greetingtwo())
