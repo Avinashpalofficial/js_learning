@@ -1,0 +1,62 @@
+let a=4            
+let b= 6
+if(true){
+    let a= 3
+    const b= 2
+    var c = 7
+    console.log(a);          // var global aur local dono ke value ko gain karata hai so we avoid var    
+    console.log(b);
+    
+}
+
+console.log(a)            
+console.log(b)
+console.log(c)
+
+  function avin(){
+    // const username= "avinash"
+
+      function rahul(){
+     // console.log(username);
+      }
+     // console.log(yt);
+      rahul()
+  }
+  avin()
+    
+
+  if(true){
+    const username= "rat"
+    if(username==="rat"){
+        const ticker="qwer"
+      console.log(username+ticker)
+    }
+    //console.log(ticker)
+  }
+  //console.log(username)
+ // console.log(multiplication(4))    
+  console.log(add(4))
+   function add(num){
+    return num-1
+   }
+      
+//        // console.log(add(4))
+//        console.log(multiplication(4))
+//  function multiplication(num1){
+//     return num1*2
+//  }
+    
+
+
+
+   console.log(multiplication(4))
+        
+   const store=  function multiplication(num1){
+    return num1*2
+ }
+ //console.log(multiplication(4))
+     
+  
+
+
+
