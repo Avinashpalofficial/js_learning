@@ -1,0 +1,53 @@
+const user={
+  //  username: "avinash",
+    course: "javascript",
+
+    welcomemessage: function(){
+        //console.log(this);
+        console.log(`${this.username},welcome to course `)
+    }
+
+
+}
+
+// user.welcomemessage()
+// user.username= "sammy"
+
+// user.welcomemessage()
+ //console.log(this)   -> {} in node js environment but in console global object  is window
+     function chai(){
+        let scope= "avin"
+        console.log(this.scope);    // undefined   // function ke andar directly this ka use nahi kar sakte hai
+     }
+     chai()
+ 
+  const code= function(){
+      let username= "kamal"
+
+      console.log(this.username); // undefined
+  }
+ code()
+
+ const aam= ()=>{
+    let username= "kamal"
+
+    console.log(this.username); // undefined
+}
+aam()
+
+//   const multiplication= (num1,num2)=>{
+
+//     return num1*num2
+//   }
+        
+
+//const multiplication= (num1,num2)=>num1*num2
+const multiplication= (num1,num2)=>({username: "hitesh"})
+  console.log(multiplication(3,4))
+
+
+
+
+
+
+
