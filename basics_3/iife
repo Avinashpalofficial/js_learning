@@ -1,0 +1,25 @@
+//IIFE -> Immediately invoked function Expression
+
+// function two(){
+//       console.log("CONNECTED");
+// }
+// two()
+
+
+(function two(){       // named iife
+    console.log("CONNECTED");  //global scope ke pollution se kai bar problem hoti hai ,global scope ke variable ko hatane ke liye iife ka use kiya
+})();
+
+
+((one)=>{
+     console.log(`DB connected two ${one}`)
+})(1);
+
+
+(()=>{  //  unnamed iife
+    console.log(`connected`);  //global scope ke pollution se kai bar problem hoti hai ,global scope ke variable ko hatane ke liye iife ka use kiya
+})()    // back to back iife function write karne ke liye ke liye semi column(;) ks use karte hai
+
+
+
+
