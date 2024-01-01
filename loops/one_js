@@ -1,0 +1,60 @@
+const arr = [1,2,3,4,6]
+for(const rat of arr){
+   // console.log(rat)
+}
+
+//const name= "Avinash pal"
+
+// //for(const hold of name){
+
+//     if(hold!==' '){
+
+//         console.log(`each char is ${hold}`);
+//     }
+// }
+
+//+++++++++++++++++++++++++++MAPS+++++++++++++++++++++++++++++
+  
+// const map = new Map()
+// map.set('IN',"INDIA")
+// map.set('USA',"ENGLAND")
+// map.set('FR',"FRANCE")
+
+//console.log(map);
+
+
+// for(const [key,value] of map){
+//     console.log(key,'=>' ,value);
+// }
+
+  const myObject={
+    Rat1: 'pinku',
+    Rat2: 'kichha',
+
+  }
+// for(const[key,value] of myObject){  //ye method kaam nahi karega 
+//     console.log(key,'=>',value);
+// }
+
+//+++++++++++++++++++++++++++++++++++++++for in loop+++++++++++++++++++++++++++++
+for (const key in myObject){
+   // console.log(key);
+   //console.log(myObject[key]);
+   console.log(`${key} is ${myObject[key]}`);         
+}
+
+
+const name = ["avin", "rat", "kitty", "tilu", "nilu"]
+
+for(const key in name){
+    console.log(name[key]);
+}
+
+
+const cat = new Map(){
+   
+    cat.set('IN', "India")
+    cat.set('Fr', "France")
+    cat.set('USA', "United States of America")
+    cat.set('IN', "India")
+}

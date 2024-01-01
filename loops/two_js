@@ -1,0 +1,53 @@
+// const map = new Map()
+// map.set('IN',"INDIA")
+// map.set('fs',"FRANCE")
+// map.set('usa',"UNITED STATES AMERICA")
+// map.set('aus',"australia")
+
+// for(const key in map){         map iterable nahi hota iska another method hota
+
+//     console.log(key);
+// }
+
+
+//+++++++++++++++++++++++++++for each loop++++++++++++++++++++++
+
+const coding = ["js", "ruby", "java", "python", "cpp"]
+// coding.forEach((element) => {
+//     console.log(element);
+// }); 
+
+// coding.forEach(function(item){
+//     console.log(item);
+// })
+
+// function printme(vare){
+//       console.log(vare);
+//     }
+//     coding.forEach(printme)
+// coding.forEach( (item, index, arr)=> {
+//         console.log(item, index, arr);
+//     } )
+
+
+    const myCoding = [
+        {
+            languageName: "javascript",
+            languageFileName: "js"
+        },
+        {
+            languageName: "java",
+            languageFileName: "java"
+        },
+        {
+            languageName: "python",
+            languageFileName: "py"
+        },
+    ]
+    
+    myCoding.forEach( (item) => {
+        
+       // console.log(item.languageName);
+        console.log(item. languageFileName);
+
+    } )
